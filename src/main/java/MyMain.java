@@ -1,18 +1,22 @@
+import java.util.Arrays;
+
 public class MyMain {
 
     // Reverses an array
     public static int[] reverse(int[] arr) {
         int length_counter = arr.length - 1;
         for (int i = 0; i < arr.length; i++){
-            arr[0] = arr[(length_counter];
+            int [] arr2 = new int[arr.length];
+            arr2[i] = arr[length_counter];
             length_counter -= 1;
         }
-        return arr;
+        return arr2;
     }
 
     // Finds the second largest number in an array
     public static int secondLargest(int[] arr) {
-        // REPLACE WITH YOUR CODE HERE
+        int biggest = ;
+        int biggest2nd = ;
         return -1;
     }
 
@@ -32,6 +36,7 @@ public class MyMain {
 
 
     public static void main(String[] args) {
-        // YOUR CODE HERE
+        int [] arr = {1,2,3,4,6};
+        System.out.println(Arrays.toString(reverse(arr)));
     }
 }
