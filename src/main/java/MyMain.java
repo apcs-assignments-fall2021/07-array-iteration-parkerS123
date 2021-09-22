@@ -2,8 +2,12 @@ public class MyMain {
 
     // Reverses an array
     public static int[] reverse(int[] arr) {
-        // REPLACE WITH YOUR CODE HERE
-        return null;
+        int length_counter = arr.length - 1;
+        for (int i = 0; i < arr.length; i++){
+            arr[0] = arr[(length_counter];
+            length_counter -= 1;
+        }
+        return arr;
     }
 
     // Finds the second largest number in an array
